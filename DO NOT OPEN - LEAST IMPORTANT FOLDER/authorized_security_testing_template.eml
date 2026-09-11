@@ -1,0 +1,278 @@
+Subject: Written Authorization for Security Testing =?utf-8?b?4oCU?= [Target /
+ Program Name]
+From: [Official Organization Email Address]
+To: [Authorized Tester Email Address]
+Date: Mon, 31 Aug 2026 22:04:51 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============6509143076502642368=="
+
+--===============6509143076502642368==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear [Authorized Tester Name],
+
+This email serves as formal written authorization from the [Organization Name=
+] team for [Authorized Tester Name] to conduct security testing and penetrati=
+on testing of the asset(s) identified below.
+
+AUTHORIZED TESTER
+
+Name: [Authorized Tester Name]
+
+ASSETS IN SCOPE
+
+The following asset(s) are explicitly authorized for testing:
+
+- [Fully Qualified Domain Name / IP / Application]
+- [Additional asset, if applicable]
+
+Scope includes:
+- [Application layer / APIs / authentication / specified components]
+- [Other explicitly authorized components]
+
+Scope excludes:
+- [Hosting infrastructure, cloud accounts, third-party services, or other exc=
+lusions]
+- [Any other exclusions]
+
+AUTHORIZED TESTING WINDOW
+
+Start: [Start Date and Time]
+End: [End Date and Time]
+Timezone: [Timezone]
+
+Testing conducted by the authorized tester against the explicitly in-scope as=
+sets during this period is authorized under this written permission. Testing =
+outside this period requires renewed written authorization.
+
+PERMITTED TESTING
+
+The authorized tester may conduct reasonable security research and penetratio=
+n testing, including:
+
+- Manual penetration testing and security research
+- Reconnaissance and application enumeration
+- Authentication and session-management testing
+- Authorization and access-control testing
+- IDOR/BOLA and privilege-escalation testing
+- API security testing
+- Input-validation and injection testing
+- Cross-site scripting testing
+- CSRF testing
+- File-upload and file-handling testing
+- Business-logic testing
+- Information-disclosure testing
+- Security-boundary and trust-model testing
+- Safe proof-of-concept exploitation necessary to establish vulnerability imp=
+act
+- Testing of application workflows and security controls
+- Reasonable automated testing at a safe rate
+
+TESTING RESTRICTIONS
+
+The following activities are not authorized:
+
+- Denial-of-service or distributed-denial-of-service testing
+- Deliberate service degradation or disruption
+- Destructive exploitation
+- Deletion or modification of production data
+- Installation of persistence mechanisms, backdoors, malware, or implants
+- Attacks against unrelated third-party infrastructure
+- Credential attacks against unrelated users
+- OTP, SMS, email, or notification spam
+- Excessive automated request generation
+- Activity intended to exhaust system resources or materially affect availabi=
+lity
+- Unnecessary access, copying, or disclosure of sensitive information
+
+Testing must remain safe and non-destructive. Where sensitive information is =
+inadvertently encountered, access must be limited to the minimum necessary to=
+ establish the vulnerability and it must not be publicly disclosed.
+
+VULNERABILITY HANDLING
+
+If testing reveals a vulnerability capable of causing significant data exposu=
+re, account compromise, service disruption, or other material impact, the aut=
+horized tester should stop testing the affected functionality once sufficient=
+ evidence has been obtained and report the issue to the designated security c=
+ontact.
+
+REPORTING
+
+Security vulnerabilities discovered during the authorized assessment should b=
+e reported as soon as reasonably practicable to:
+
+[Security Contact Name / Team]
+[Official Security Email Address]
+
+Reports should include, where applicable:
+
+- Vulnerability description
+- Affected endpoint or functionality
+- Steps to reproduce
+- Proof-of-concept evidence
+- Security impact
+- Relevant request/response information
+- Recommended remediation
+
+AUTHORIZATION AND SAFE HARBOR
+
+[Organization Name] confirms that security testing performed by [Authorized T=
+ester Name] against the explicitly identified in-scope assets, during the aut=
+horized testing window and within the limitations stated in this email, is au=
+thorized by [Organization Name].
+
+[Organization Name] will not consider compliant testing conducted within this=
+ explicitly authorized scope and timeframe to constitute unauthorized access =
+or malicious activity.
+
+This authorization applies only to the assets and activities expressly descri=
+bed above and does not authorize testing of unrelated systems or third-party =
+infrastructure.
+
+Sincerely,
+
+[Organization Name] Security / Organizing Team
+[Official Organization Email Address]
+
+--===============6509143076502642368==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!DOCTYPE html>
+<html><head><meta charset=3D"utf-8"></head>
+<body style=3D"font-family:Arial,Helvetica,sans-serif;font-size:15px;line-hei=
+ght:1.55;color:#333;">
+<pre style=3D"font-family:Arial,Helvetica,sans-serif;white-space:pre-wrap;">D=
+ear [Authorized Tester Name],
+
+This email serves as formal written authorization from the [Organization Name=
+] team for [Authorized Tester Name] to conduct security testing and penetrati=
+on testing of the asset(s) identified below.
+
+AUTHORIZED TESTER
+
+Name: [Authorized Tester Name]
+
+ASSETS IN SCOPE
+
+The following asset(s) are explicitly authorized for testing:
+
+- [Fully Qualified Domain Name / IP / Application]
+- [Additional asset, if applicable]
+
+Scope includes:
+- [Application layer / APIs / authentication / specified components]
+- [Other explicitly authorized components]
+
+Scope excludes:
+- [Hosting infrastructure, cloud accounts, third-party services, or other exc=
+lusions]
+- [Any other exclusions]
+
+AUTHORIZED TESTING WINDOW
+
+Start: [Start Date and Time]
+End: [End Date and Time]
+Timezone: [Timezone]
+
+Testing conducted by the authorized tester against the explicitly in-scope as=
+sets during this period is authorized under this written permission. Testing =
+outside this period requires renewed written authorization.
+
+PERMITTED TESTING
+
+The authorized tester may conduct reasonable security research and penetratio=
+n testing, including:
+
+- Manual penetration testing and security research
+- Reconnaissance and application enumeration
+- Authentication and session-management testing
+- Authorization and access-control testing
+- IDOR/BOLA and privilege-escalation testing
+- API security testing
+- Input-validation and injection testing
+- Cross-site scripting testing
+- CSRF testing
+- File-upload and file-handling testing
+- Business-logic testing
+- Information-disclosure testing
+- Security-boundary and trust-model testing
+- Safe proof-of-concept exploitation necessary to establish vulnerability imp=
+act
+- Testing of application workflows and security controls
+- Reasonable automated testing at a safe rate
+
+TESTING RESTRICTIONS
+
+The following activities are not authorized:
+
+- Denial-of-service or distributed-denial-of-service testing
+- Deliberate service degradation or disruption
+- Destructive exploitation
+- Deletion or modification of production data
+- Installation of persistence mechanisms, backdoors, malware, or implants
+- Attacks against unrelated third-party infrastructure
+- Credential attacks against unrelated users
+- OTP, SMS, email, or notification spam
+- Excessive automated request generation
+- Activity intended to exhaust system resources or materially affect availabi=
+lity
+- Unnecessary access, copying, or disclosure of sensitive information
+
+Testing must remain safe and non-destructive. Where sensitive information is =
+inadvertently encountered, access must be limited to the minimum necessary to=
+ establish the vulnerability and it must not be publicly disclosed.
+
+VULNERABILITY HANDLING
+
+If testing reveals a vulnerability capable of causing significant data exposu=
+re, account compromise, service disruption, or other material impact, the aut=
+horized tester should stop testing the affected functionality once sufficient=
+ evidence has been obtained and report the issue to the designated security c=
+ontact.
+
+REPORTING
+
+Security vulnerabilities discovered during the authorized assessment should b=
+e reported as soon as reasonably practicable to:
+
+[Security Contact Name / Team]
+[Official Security Email Address]
+
+Reports should include, where applicable:
+
+- Vulnerability description
+- Affected endpoint or functionality
+- Steps to reproduce
+- Proof-of-concept evidence
+- Security impact
+- Relevant request/response information
+- Recommended remediation
+
+AUTHORIZATION AND SAFE HARBOR
+
+[Organization Name] confirms that security testing performed by [Authorized T=
+ester Name] against the explicitly identified in-scope assets, during the aut=
+horized testing window and within the limitations stated in this email, is au=
+thorized by [Organization Name].
+
+[Organization Name] will not consider compliant testing conducted within this=
+ explicitly authorized scope and timeframe to constitute unauthorized access =
+or malicious activity.
+
+This authorization applies only to the assets and activities expressly descri=
+bed above and does not authorize testing of unrelated systems or third-party =
+infrastructure.
+
+Sincerely,
+
+[Organization Name] Security / Organizing Team
+[Official Organization Email Address]
+</pre>
+</body></html>
+
+--===============6509143076502642368==--
