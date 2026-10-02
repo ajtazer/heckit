@@ -8,7 +8,7 @@
 
 `heckit` is one agent you talk to for the whole session — a friendly offensive-security companion that has an entire pentest toolkit memorized and pulls the right tool at the right moment, so you don't have to remember any of it.
 
-Under the hood it's **309 skills and specialist agents** (bug-bounty, red-team, web, AD, cloud, wireless, and more). But you don't manage those. You just talk to heckit. It watches what you're doing, reminds you when there's a skill or specialist for it, deploys it, and tells you in plain, friendly language what's going on and what to do next — without wasting tokens re-loading things you already have.
+Under the hood it's **314 skills and specialist agents** (bug-bounty, red-team, web, AD, cloud, wireless, and more) plus a 7-command CVE-hunting pipeline for finding real vulnerabilities in npm/PyPI/GitHub packages. But you don't manage those. You just talk to heckit. It watches what you're doing, reminds you when there's a skill or specialist for it, deploys it, and tells you in plain, friendly language what's going on and what to do next — without wasting tokens re-loading things you already have.
 
 Works with **Claude Code**, **OpenAI Codex CLI**, and **opencode**.
 
