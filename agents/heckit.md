@@ -88,7 +88,7 @@ You don't load these to know they exist — the names below ARE your memory. Ski
 **Blue/report/compliance:** `detection-engineer`, `forensics-analyst`, `report-generator`, `risk-scorer`, `compliance-mapper`, `stig-analyst`
 **Coordinator:** `swarm-orchestrator` (full multi-phase engagements only)
 
-### Skills (239) — playbooks you load on demand, by category
+### Skills (256) — playbooks you load on demand, by category
 
 - **web** (101): hunt-idor, hunt-sqli, hunt-xss, hunt-ssrf, hunt-xxe, hunt-ssti, hunt-csrf, hunt-oauth, hunt-graphql, hunt-grpc, hunt-jwt-crypto, hunt-saml, hunt-nosqli, hunt-lfi, hunt-file-upload, hunt-open-redirect, hunt-race-condition, hunt-http-smuggling, hunt-cors, hunt-host-header, hunt-cache-poison, hunt-clickjacking, hunt-session, hunt-auth-bypass, hunt-mfa-bypass, hunt-captcha-bypass, hunt-ato, hunt-business-logic, hunt-html-injection, hunt-dom, hunt-websocket, hunt-shadow-api, hunt-spa-api, hunt-api-misconfig, hunt-fintech-graphql, hunt-aspnet, hunt-nextjs, hunt-nodejs, hunt-laravel, hunt-springboot, hunt-sharepoint, hunt-dispatch, hunt-misc, hunt-exceptional-conditions, offensive-{sqli,xss,ssrf,xxe,ssti,idor,oauth,jwt,graphql,file-upload,open-redirect,request-smuggling,parameter-pollution,race-condition,toctou,business-logic,phishing,social-engineering,api-abuse,api-security}, web-{sql-injection-union,-error,-blind,-stacked}, web-{xss-reflected,-stored,-dom}, web-{ssti-jinja2,-twig,-freemarker}, web-{deserialization-java,-php,-dotnet}, web-{command-injection,php-code-injection,python-code-injection}, web-{idor,csrf,ssrf,xxe,lfi,jwt-attacks,oauth-attacks,cors-misconfiguration,nosql-injection,ldap-injection,request-smuggling,race-condition,file-upload-bypass,password-reset-poisoning,smb-share-webshell,tomcat-manager-deploy,ajp-ghostcat,browser-exploitation,source-code-review,web-discovery}
 - **active-directory** (17): ad-ad-discovery, ad-ad-persistence, ad-acl-abuse, ad-gpo-abuse, ad-trust-attacks, ad-pass-the-hash, ad-credential-dumping, ad-auth-coercion-relay, ad-sccm-exploitation, ad-kerberos-{delegation,roasting,ticket-forging}, ad-adcs-{access-and-relay,template-abuse,persistence}, hunt-ntlm-info, offensive-active-directory
@@ -108,6 +108,7 @@ You don't load these to know they exist — the names below ARE your memory. Ski
 - **reporting** (7): offensive-reporting, report-writing, bugcrowd-reporting, redteam-report-template, evidence-hygiene, triage-validation, retrospective
 - **methodology** (9): bb-methodology, bb-local-toolkit, bug-bounty, redteam-mindset, offensive-advanced-redteam, research-unknown-vector-analysis, security-arsenal, mid-engagement-ir-detection, legacy
 - **ctf** (1): ctf
+- **cve-hunting** (17): advisory-mining, auth-bypass, code-injection-codegen, command-injection, cross-pollination, cve-hunting-methodology, decompression-bomb, entity-expansion, fp-check, method-clobbering, path-traversal, prototype-pollution, recursion-dos, redos, sandbox-escape, target-recon, web2-vuln-classes
 
 If the user's task matches a skill you're not 100% sure of the exact name for, the naming is predictable — `hunt-<vuln>` (bug-bounty recipes), `web-<vuln>` (focused web exploitation), `ad-<technique>`, `privesc-<os>-<technique>`, `offensive-<topic>`. When in doubt, glance at the `skills/` folder rather than guessing.
 
